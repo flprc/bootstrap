@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>Majestade Semijoias</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="nav justify-content-end" style="font-size: 20px; padding: 10px;">
+                        <li class="nav-item"><a class="nav-link active" href="" style="color:white">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:white" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:white" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:white" href="#contato">Contato</a></li>
+                    </ul>
+                    <img src="./images/logo.png" style="width: 40%; float: left;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/car-01.png" class="d-block w-100" style="height: 500px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Coleção Outono 2022</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/car-02.png" class="d-block w-100" style="height: 500px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>As Melhores Tendências do Mercado</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="radio radio-21x9">
+                <img src="./images/car-03.png" class="d-block w-100" style="height: 500px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Levamos o Mostruário até Você!</h2>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero doloribus veniam incidunt reprehenderit. Itaque, culpa? Rerum, excepturi vero hic error aperiam voluptatibus qui ducimus cupiditate quod consequatur blanditiis aut.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero doloribus veniam incidunt reprehenderit. Itaque, culpa? Rerum, excepturi vero hic error aperiam voluptatibus qui ducimus cupiditate quod consequatur blanditiis aut.</p>
+                    <a class="btn btn-lg btn-light">Contato</a>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="./images/joias.jpg" alt="Imagem Exemplo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Produtos Mais Vendidos</h2>
+
+                    <div class="card">
+                        <img src="./images/brinco.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Brinco Coleção Oceano</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <a class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modal-1" >Ver Estoque</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/cordao.jpeg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Colar Coleção Namorados</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <a class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Estoque</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/pulseira.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Pulseira Coleção Dia da Mulher</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <a class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modal-3">Ver Estoque</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário para que um dos nossos atendentes entre em contato com você.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea  class="form-control" name="" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-light">Quero Fazer um Orçamento</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color:#32200c;">Brinco Coleção Oceano</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: black">
+                    <h6>Confira o Material e os Preços</h6>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Material</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ouro</td>
+                                <td>R$ 300</td>
+                            </tr>
+                            <tr>
+                                <td>Rosé Gold</td>
+                                <td>R$ 250</td>
+                            </tr>
+                            <tr>
+                                <td>Prata</td>
+                                <td>R$ 150</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ 
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color:#32200c;">Colar Coleção Namorados</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: black">
+                    <h6>Confira o Material e os Preços</h6>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Material</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ouro</td>
+                                <td>R$ 300</td>
+                            </tr>
+                            <tr>
+                                <td>Rosé Gold</td>
+                                <td>R$ 250</td>
+                            </tr>
+                            <tr>
+                                <td>Prata</td>
+                                <td>R$ 150</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color:#32200c;">Pulseira Coleção Dia da Mulher</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: black">
+                    <h6>Confira o Material e os Preços</h6>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Material</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ouro</td>
+                                <td>R$ 300</td>
+                            </tr>
+                            <tr>
+                                <td>Rosé Gold</td>
+                                <td>R$ 250</td>
+                            </tr>
+                            <tr>
+                                <td>Prata</td>
+                                <td>R$ 150</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleCaptions')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false,
+            interval: 3000
+        })
+    </script>
+</body>
+</html>

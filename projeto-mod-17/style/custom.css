@@ -1,0 +1,48 @@
+body {
+    background-color: #32200c;
+    color: #fbf198;
+}
+section {
+    padding: 4rem;
+}
+
+ h2 {
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #32200c;
+}
+
+
+.btn-success {
+    background-color: white;
+    color:#32200c
+    
+}
+
+.btn-success:hover{
+    background-color: #fbf198;
+    color: #32200c;
+}
+
+.btn-light {
+    color: white;
+    background-color: #32200c;
+    
+}
+
+.btn-primary:hover{
+    background-color: #fbf198;
+    color: #32200c;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+    color: #32200c
+}
